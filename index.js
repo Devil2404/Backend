@@ -9,7 +9,7 @@ const port = 5000;
 app.use(express.json());
 app.use('/api/admin', require('./Rotues/admin'))
 app.use('/api/teacher', require('./Rotues/teacher'))
-app.use('/api/student', require('./Rotues/students'))
+app.use('/api/student', require('./Rotues/students'));
 
 
 
